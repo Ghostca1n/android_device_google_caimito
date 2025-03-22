@@ -33,6 +33,7 @@ TARGET_CORE_GMS := false
 TARGET_CORE_GMS_EXTRAS := false
 TARGET_GMS_EXTRAS := true
 WITH_PIXEL_OVERLAYS := true
+TARGET_INCLUDE_GOOGLE_DIALER := true
 
 ifneq ($(WITH_GMS),false)
 ifneq ($(TARGET_CORE_GMS),true)
